@@ -1,11 +1,4 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-window.onload = function() {
-  //write your code here
+function generarExcusa() {
   let primeraParte = "Un ";
   let adjetivo = [
     "doble cabeza ",
@@ -74,4 +67,6 @@ window.onload = function() {
     lugar[indiceLugar] +
     ".";
   document.getElementById("excuse").innerHTML = excusa;
-};
+}
+
+window.onload = generarExcusa;
