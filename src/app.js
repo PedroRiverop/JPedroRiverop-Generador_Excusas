@@ -24,8 +24,7 @@ window.onload = function() {
     "perro ",
     "comerciante ",
     "conductor ",
-    "comediante ",
-    "piña "
+    "comediante "
   ];
   let accion = [
     "tomó mi ",
